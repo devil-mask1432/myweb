@@ -1,0 +1,23 @@
+   /* ----contact css---- */
+   .contact-container {
+    margin: 0 108px;
+    padding: 0 12px;
+    margin-top: 3rem;
+    margin-top: 200px;
+   
+   }
+   .contact-container div {
+      margin-bottom: 4rem;
+   }
+   .contact-container div h1 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 8px;
+   }
+   .contact-container div p {
+    color: rgb(33, 37, 41);
+    line-height: 24px;
+   
+    text-decoration: none;
+   }
+ 

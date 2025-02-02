@@ -1,0 +1,85 @@
+
+  /* ---services css-- */
+  .services-container {
+    margin: 0 108px;
+    padding: 0 12px;
+    margin-top: 3rem;
+    margin-bottom: 200px;
+    /* display: flex;
+    align-items: center; */
+  }
+  .services-container div h1 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+ 
+  .services-container div {
+    margin-bottom: 60px;
+  }
+  .services-container div  p {
+    line-height: 24px;
+    text-decoration: none;
+    
+  }
+  .email-container {
+    width: 200px;
+  }
+  .email-container a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:  rgb(25, 135, 84);
+    position: relative;
+    padding: 12px;
+  }
+  .email-container a:hover::after {
+   content: '';
+   width: 200px;
+   height: 50px;
+   border: 2px solid rgb(25, 135, 84);
+   border-radius: 4px ;
+   position: absolute;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   right: 0;
+  }
+  .email-container img {
+    margin-right: 20px;
+    /* width: 500px; */
+
+  }
+  .github-container a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(25, 135, 84);
+    position: relative;
+    padding-left: 12px;
+    
+  }
+  .github-container {
+    width: 200px;
+  }
+  .github-container a:hover::after{
+    content: '';
+    width: 200px;
+    height: 50px;
+    border: 2px solid rgb(25, 135, 84);
+    border-radius: 4px ;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .github-container img {
+    margin-right: 20px;
+  }
+
+  .email-picture {
+    width: 20px;
+    object-fit: cover;
+
+  }
