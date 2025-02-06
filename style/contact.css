@@ -2,8 +2,9 @@
    .contact-container {
     margin: 0 108px;
     padding: 0 12px;
-    margin-top: 3rem;
-    margin-top: 200px;
+    /* margin-top: 3rem; */
+    /* margin-top: 200px; */
+    height: 70vh;
    
    }
    .contact-container div {
