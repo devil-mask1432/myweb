@@ -1,0 +1,38 @@
+  /* ---about css--- */
+  .learn-container {
+    margin: 0 108px;
+    height: 100vh;
+    /* margin-bottom: 400px; */
+    padding: 120px 12px;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.learn-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+ }
+.col-1 {
+  width: 1fr;
+  margin-right: 30px;
+}
+.col-2 {
+  width: 1fr;
+}
+.col-3 {
+  width: 1fr;
+}
+.col-1 h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+.col-1 p {
+  font-size: 16px;
+}
+.my-image1 {
+  width: 400px ;
+  object-fit: cover;
+  border-radius: 20px;
+}
