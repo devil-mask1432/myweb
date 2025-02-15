@@ -9,30 +9,22 @@
     justify-content: space-between;
     align-items: center;
   }
-.learn-row {
-  width: 100%;
-  display: flex;
-  align-items: center;
- }
-.col-1 {
-  width: 1fr;
-  margin-right: 30px;
+  .learn-container div h1 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 8px;
+   }
+  
+.col-1{
+ flex: 1;
 }
 .col-2 {
-  width: 1fr;
+  flex: 1;
 }
 .col-3 {
-  width: 1fr;
+  flex: 1;
 }
-.col-1 h1 {
-  font-size: 32px;
-  margin-bottom: 8px;
-}
-.col-1 p {
-  font-size: 16px;
-}
-.my-image1 {
-  width: 400px ;
-  object-fit: cover;
+.course-tumbnail {
+  width: 100%;
   border-radius: 20px;
 }
