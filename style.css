@@ -1,0 +1,127 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Roboto,Arial;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+ z-index: 500;
+
+}
+.logo {
+  height: 40px;
+}
+h2 {
+  font-size: 22px;
+}
+
+.left-section {
+  width: 300px;
+  margin-left: 90px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.right-section {
+  margin-right: 60px;
+  flex-shrink: 0;
+}
+ul,li,a{
+ text-decoration:none ;
+ list-style: none;
+ display: flex;
+ margin: 10px;
+ color: black;
+ position: relative;
+}
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(21, 128, 61);
+}
+.home-section {
+  margin-left: 100px;
+  /* display: flex; */
+  /* align-items: center; */
+  height: 80vh;
+  padding-top: 4%;
+  margin-right: 90px;
+}
+.add-btn {
+   background-color:rgb(21, 128, 61) ;
+   color: white;
+   padding: 12px 28px;
+   border: none;
+   border-radius: 4px;
+   /* font-family: Roboto; */
+   font-size: 14px;
+}
+.about-section {
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  /* height: 80vh; */
+  margin-right: 100px;
+  padding-top: 4%;
+}
+.col-1 {
+  flex: 1;
+
+}
+.col-2  {
+  flex: 1;
+}
+.about-image {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.services-section {
+ margin-left: 80px;
+ margin-right: 80px;
+ height: 80vh;
+}
+.gmail-container {
+ margin-top: 20px;
+ margin-bottom: 20px;
+  
+}
+.gmail-logo {
+  height: 30px;
+  margin-right: 20px;
+}
+.github-logo {
+  height: 30px;
+  margin-right: 20px;
+
+}
+.contact-section {
+  margin-left: 80px;
+  margin-right: 80px;
+  height: 80vh;
+ }
+ p{
+  font-family: ui-sans-serif,system-ui;
+ }
+ .learn-section {
+  margin-left: 80px;
+  margin-right: 80px;
+  height: 80vh;
+  display: flex;
+ }
+ .learn-info {
+  width:400px;
+ }
+ .learn-tumbnaile {
+  flex: 1;
+  display: flex;
+ }
+ .learn-tumbnaile,img {
+  height: 200px;
+ }
